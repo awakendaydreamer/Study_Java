@@ -1,5 +1,5 @@
 package If;
-public class Ex_If {
+public class Ex_if {
 	public static void main(String[] args) {
 		/*
 		 * 단순 If문 : 조건을 판단하여 참일 경우에만 실행
