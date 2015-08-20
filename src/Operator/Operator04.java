@@ -15,8 +15,8 @@ public class Operator04 {
 		System.out.println(10 < 5 && 20 > 5);	//false(0) && true(1) = false(0)
 		System.out.println(10 < 5 && 20 < 5);	//false(0) && false(0) = false(0)
 		System.out.println("--------------");
-		System.out.println(10>5 || 20>5);		//true(1) || true(1) = true(1)
-		System.out.println(10>5 || 20<5);		
+		System.out.println(10>5 || 20<5);		//true(1) || true(1) = true(1)
+		System.out.println(10>5 || 20<5);
 		System.out.println(10>5 || 20<5);
 		System.out.println(10>5 || 20<5);
 		
