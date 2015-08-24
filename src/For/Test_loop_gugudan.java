@@ -20,15 +20,15 @@ public class Test_loop_gugudan {
 		//② while
 		System.out.println("while문을 이용한 구구단 ===========================");
 		
-		 i = 0;
-		 while( i <= 9){
-			 i++;
-			 j = 0;
-			 while( j<=9);{
+		 i = 2;
+		 while(i <= 9){
+			 j = 1;
+			 while( j<=9){
+					System.out.print(i + "X" + j + "=" + i*j + "\t");
 				 j++;
 			 }//while j
-			 
-			 System.out.print(i + "X" + j + "=" + i*j + "\t");
+			 i++; 
+			 System.out.println();
 		 }//while i
 		 	
 		
@@ -40,6 +40,17 @@ public class Test_loop_gugudan {
 		//③ do ~~ while
 		System.out.println("do ~~ while문을 이용한 구구단 ========================");
 		
+		i = 2;
+		do{
+			j = 1;
+			do{
+				System.out.print(i + "X" + j + "=" + i*j + "\t");
+				j++;
+			
+			}while(j <= 9);
+			i++;
+			System.out.println();
+		}while(i <= 9); 
 		
 		
 		
