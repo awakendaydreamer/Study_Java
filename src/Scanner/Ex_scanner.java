@@ -28,6 +28,11 @@ public class Ex_scanner {
 	System.out.println("입력하신 점수는 " + jumsu + "점 입니다." );
 	
 /*-------------------------------------------------------------------------------*/
+	if(jumsu >= 0 && jumsu <= 100){
+		
+	}
+	
+	
 	
 	if(jumsu >= 90){
 		System.out.println("당신의 학점은 A학점 입니다.");
