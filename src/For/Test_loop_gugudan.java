@@ -23,7 +23,7 @@ public class Test_loop_gugudan {
 		 i = 2;
 		 while(i <= 9){
 			 j = 1;
-			 while( j<=9){
+			 while( j <= 9){
 					System.out.print(i + "X" + j + "=" + i*j + "\t");
 				 j++;
 			 }//while j

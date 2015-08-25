@@ -27,8 +27,7 @@ public class Ex_continue {
 				continue;				//반복문의 처음으로 되돌림
 			}else{						//홀수이면
 				sum += i;				//누적합을 계산
-			}
-			
+			}//if
 		}//for
 			System.out.println("홀수의 합 :" + sum);
 		
