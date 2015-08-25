@@ -37,7 +37,7 @@ public class Test_sungjuk01 {
 		DecimalFormat df = new DecimalFormat("0.0"); 	//소수 첫째자리까지 표시
 		grade = null;									//학점을 저장할 변수를 선언하고 null값을 할당 ▶ 초기화
 		
-		if ((kor < 0 && kor > 100) || (eng <0 && eng > 100 ) || (mat < 0 && mat > 100)){
+		if (!(kor >= 0 && kor <= 100) || !(eng >=0 && eng <= 100 ) || !(mat >= 0 && mat <= 100)){
 		
 			System.out.println("입력범위를 벗어났습니다");
 			return;
