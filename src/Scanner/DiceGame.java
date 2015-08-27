@@ -18,7 +18,7 @@ public class DiceGame {
 
 		//준비도구
 		Scanner scanner = new Scanner(System.in);	//입력개체
-		Random random	= new Random();				//랜덤객체
+		Random random	= new Random();			//랜덤객체
 //		int userNum = random.nextInt(6);
 //		System.out.println(userNum);
 		
