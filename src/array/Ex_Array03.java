@@ -10,6 +10,8 @@ public class Ex_Array03 {
 		int[][] arr = new int[2][3];		//2행 3열의 2차원 배열 생성 (6개)
 		
 		
+		
+		
 //		arr[0][0] = 10;
 //		arr[0][1] = 10;
 //		arr[0][2] = 10;

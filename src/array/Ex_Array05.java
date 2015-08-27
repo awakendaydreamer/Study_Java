@@ -4,6 +4,9 @@ public class Ex_Array05 {
 
 	public static void main(String[] args) {
 		// 가변길이 배열(행은 고정, 열이 가변길이) → 자바는 행단위 우선할당 방식(Row-Major)
+		
+		
+		
 		int[][] arr =new int[2][];
 		
 		arr[0] = new int[2];		 //[0][0] , [0][1]
