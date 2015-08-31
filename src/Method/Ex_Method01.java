@@ -10,7 +10,7 @@ public class Ex_Method01 {
 	
 	}//main()
 	
-	//2개의 정수를 매개변수(인수)로 받아서 합(sum)을 구하여 출력하는 메서드(hap)를 정의
+	//2개의 정수를 매개변수(인수)로 받아서 합(su3m)을 구하여 출력하는 메서드(hap)를 정의
 	public static void hap(int a, int b){		//인수(Parameter, 매개변수) ▶ 가인수
 		int sum = a + b;
 		System.out.println("첫 번째 인수 : " + a);
