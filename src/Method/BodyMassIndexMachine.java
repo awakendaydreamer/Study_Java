@@ -3,7 +3,7 @@ package Method;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class BodyMassIndecMachine {
+public class BodyMassIndexMachine {
 
 	public static void main(String[] args) {
 		//신장(height) 과 체중(weight)을 입력( 예 : 175.5, 65.5)
