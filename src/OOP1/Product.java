@@ -10,9 +10,9 @@ public class Product {
 	String name;	//제품명
 	
 	//멤버메서드를 정의 ▶ DAO Class
-	void print(){
+	void print(){								
 		System.out.println("num : " + num);
 		System.out.println("name : " + name);
-	}
+	}//print()
 
 }//class
