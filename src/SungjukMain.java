@@ -8,18 +8,18 @@ public class SungjukMain {
 
 		SungjukDTO[] sj = new SungjukDTO[3];
 		
-		sj[0] = new SungjukDTO("È«±æµ¿", 2015001, "ÄÄÇ»ÅÍ°øÇÐ", 87.4F, 93.5F);
-		sj[1] = new SungjukDTO("±è±æµ¿", 2015002, "Á¤º¸Åë½Å°ú", 67.4F, 63.5F);
-		sj[2] = new SungjukDTO("³ª±æµ¿", 2015003, "Á¤º¸º¸¾È°ú", 94.4F, 73.5F);
+		sj[0] = new SungjukDTO("È«ï¿½æµ¿", 2015001, "ï¿½ï¿½Ç»ï¿½Í°ï¿½ï¿½ï¿½", 87.4F, 93.5F);
+		sj[1] = new SungjukDTO("ï¿½ï¿½æµ¿", 2015002, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å°ï¿½", 67.4F, 63.5F);
+		sj[2] = new SungjukDTO("ï¿½ï¿½ï¿½æµ¿", 2015003, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È°ï¿½", 94.4F, 73.5F);
 		
 		SungjukDAO sjdao = new SungjukDAO();
 		
-		sjdao.sumAvg(sj);//ÃÑÁ¡°ú Æò±Õ±¸ÇÏ±â
-		sjdao.rank(sj);//¼øÀ§±¸ÇÏ±â
-		sjdao.sortSum(sj);//ÃÑÁ¡±âÁØ ³»¸²Â÷¼ø Á¤·Ä
-		sjdao.print(sj);//Ãâ·Â
-		sjdao.sortName(sj);//ÀÌ¸§±âÁØ ¿À¸§Â÷¼ø Á¤·Ä
-		sjdao.print(sj);//Ãâ·Â
+		
+		sjdao.rank(sj);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
+		sjdao.sortSum(sj);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		sjdao.print(sj);//ï¿½ï¿½ï¿½
+		sjdao.sortName(sj);//ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		sjdao.print(sj);//ï¿½ï¿½ï¿½
 		
 	}
 
