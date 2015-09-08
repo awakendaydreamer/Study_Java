@@ -23,7 +23,7 @@ public class Ex_Argument02 {
 			
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 			System.out.println("명령행 인수를 입력하세요");
 		}
 		
