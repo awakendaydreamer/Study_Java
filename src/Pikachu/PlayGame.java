@@ -10,7 +10,7 @@ public class PlayGame {
 	public PlayGame(Character character){				//②⑦
 		this.character = character;
 		
-	}
+	}//PlayGame()
 	
 	public void printMenu(Scanner sc){					//②⑧
 		System.out.println("무엇을 할까요?");
@@ -20,7 +20,7 @@ public class PlayGame {
 		menu = sc.nextInt();
 		play();
 	
-	}
+	}//printMenu()
 	
 	public void play(){									//②⑨
 		switch(menu){
@@ -40,7 +40,7 @@ public class PlayGame {
 			exit = true;
 		}//switch
 		character.printInfo();
-	}
+	}//play()
 
 	public Character getCharacter() {
 		return character;
@@ -67,4 +67,4 @@ public class PlayGame {
 	}
 	
 	
-}
+}//class

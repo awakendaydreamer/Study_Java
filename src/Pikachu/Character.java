@@ -28,6 +28,4 @@ public abstract class Character {	//①추상클래스 (abstract class)
 		System.out.println("=========================");
 	
 	}//printInfo()
-	
-	
 }//class

@@ -39,5 +39,6 @@ public class PlayGame02 {
 			character.printInfo();											//②⑧
 		}//while
 		sc.close();															//②⑨
+		
 	}//playgame()
 }//class

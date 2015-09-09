@@ -10,12 +10,12 @@ public class GameMain02 {
 		PlayGame02 pg = new PlayGame02();							//⑨
 		
 		System.out.println("원하는 캐릭터를 선택하세요");	//②
-		System.out.println("1.피차큐 \t 2.이상해씨 \t3.꼬부기 ▶");	//③
+		System.out.println("1.피차큐 \t 2.이상해씨 \t 3.꼬부기 ▶");	//③
 		int c = sc.nextInt();						//④
 		
 		if (c == 1) {								//⑤
 			character = new Pikachu();
-			pg.playgame(character);;											//⑩
+			pg.playgame(character);											//⑩
 		}else if (c == 2){							//⑥
 			character = new Lee();
 			pg.playgame(character);											//⑪
@@ -24,8 +24,7 @@ public class GameMain02 {
 			pg.playgame(character);											//⑫
 		}else{										//⑧
 			System.out.println("잘못 선택했습니다.");
-		}
+		}//if
 		
-	}
-
-}
+	}//main()
+}//class

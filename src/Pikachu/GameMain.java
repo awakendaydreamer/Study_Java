@@ -44,6 +44,6 @@ public class GameMain {
 		sc.close();
 		
 		
-	}
+	}//main()
 
-}
+}//class
