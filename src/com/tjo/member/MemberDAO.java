@@ -10,7 +10,7 @@ public class MemberDAO {
 		System.out.println("=============================================");
 		for (int i = 0; i < list.size(); i++) {
 			MemberDTO temp = list.get(i);
-			System.out.println(temp.getName() + "\t" + temp.getAge() + "\t" + temp.getAddr() + "\t" + temp.getTel());
+			System.out.println(temp.getName() + "\t" + temp.getAge() + "\t" + temp.getAddress() + "\t" + temp.getTelephon());
 		}
 		System.out.println("=============================================");
 	}//display()
@@ -28,21 +28,20 @@ public class MemberDAO {
 		
 	}//nameAscSort()
 
-	public int nameSearch(ArrayList<MemberDTO> list, String sd) {
-		int index = -1;
-		int low = 0, middle = 0, high = list.size() - 1;
-		while(low <= high){
-				middle = (low + high)/2;
+	// 이름 검색 : 이진검색
+		public int nameSearch(ArrayList<MemberDTO> list, String sd) {
+			int index = -1, low = 0, middle = 0, high = list.size() - 1;
+			while (low <= high) {
+				middle = (low + high) / 2;
 				if (list.get(middle).getName().compareTo(sd) == 0) {
 					index = middle;
 					break;
-				}else if (list.get(middle).getName().compareTo(sd) >0  ){
+				} else if (list.get(middle).getName().compareTo(sd) > 0) {
+					high = middle - 1;
+				} else {
 					low = middle + 1;
 				}
-
-		}
-		return index;
-		
-		
-	}//nameSearch()
+			}
+			return index;
+		}// nameSearch()
 }//class

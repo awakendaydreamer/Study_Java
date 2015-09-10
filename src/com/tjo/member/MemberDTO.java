@@ -3,18 +3,18 @@ package com.tjo.member;
 public class MemberDTO {
 	private String name;
 	private int age;
-	private String addr;
-	private String tel;
+	private String address;
+	private String telephon;
 	
 	public MemberDTO() {
 	}
 
-	public MemberDTO(String name, int age, String addr, String tel) {
+	public MemberDTO(String name, int age, String address, String telephon) {
 		super();
 		this.name = name;
 		this.age = age;
-		this.addr = addr;
-		this.tel = tel;
+		this.address = address;
+		this.telephon = telephon;
 	}
 
 	public String getName() {
@@ -33,22 +33,21 @@ public class MemberDTO {
 		this.age = age;
 	}
 
-	public String getAddr() {
-		return addr;
+	public String getAddress() {
+		return address;
 	}
 
-	public void setAddr(String addr) {
-		this.addr = addr;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
-	public String getTel() {
-		return tel;
+	public String getTelephon() {
+		return telephon;
 	}
 
-	public void setTel(String tel) {
-		this.tel = tel;
+	public void setTelephon(String telephon) {
+		this.telephon = telephon;
 	}
 
-	
-	
+		
 }

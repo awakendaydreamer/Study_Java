@@ -20,13 +20,13 @@ public class Ex_if_else_if {
 		
 		int jumsu = 87;
 		
-		if(jumsu <= 90){
+		if(jumsu >= 90){
 			System.out.println("너 A학점");
-		}else if(jumsu <= 80){
+		}else if(jumsu >= 80){
 			System.out.println("너 B학점");
-		}else if(jumsu <= 70){
+		}else if(jumsu >= 70){
 			System.out.println("너 C학점");
-		}else if(jumsu <= 60){
+		}else if(jumsu >= 60){
 			System.out.println("너 D학점");	
 		}else {
 			System.out.println("너 F학점");

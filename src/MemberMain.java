@@ -34,11 +34,11 @@ public class MemberMain {
 		sc.close();
 		int index = dao.nameSearch(list, sd);
 		if(index == -1){
-			System.out.println("입력하신 이름은");
+			System.out.println("입력하신 이름은 " + sd + "이며, 검색에 실패하였습니다.");
 		}else{
-			System.out.println(sd);
-			System.out.println(sd);
-			System.out.println(sd);
+			System.out.println("입력하신 이름은 " + sd + "이며,");
+			System.out.println("주소는 " + list.get(index).getAddress() + "이고,");
+			System.out.println("전화번호는 " + list.get(index).getTelephon() + " 입니다.");
 		}
 	}//main()
 }//class
