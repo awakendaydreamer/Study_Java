@@ -40,8 +40,5 @@ public class MemberMain {
 			System.out.println(sd);
 			System.out.println(sd);
 		}
-		
-		
-	}
-
-}
+	}//main()
+}//class

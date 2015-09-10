@@ -23,7 +23,7 @@ public class DogDAO {
 	public void ageDescSort(ArrayList<DogDTO> list){					//18
 		for (int i = 0; i < list.size(); i++) {							//19
 			for (int j = i + 1; j < list.size(); j++) {					//20
-				if (list.get(i).getAge() < list.get(i).getAge()) {		//21
+				if (list.get(i).getAge() < list.get(j).getAge()) {		//21
 					DogDTO temp = list.get(i);							//22
 					list.set(i, list.get(j));							//23
 					list.set(j, temp);									//24
