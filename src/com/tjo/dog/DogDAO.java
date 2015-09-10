@@ -27,9 +27,9 @@ public class DogDAO {
 					DogDTO temp = list.get(i);							//22
 					list.set(i, list.get(j));							//23
 					list.set(j, temp);									//24
-				}
-			}
-		}
+				}//if
+			}//for j
+		}//for i
 	}//ageDesc()
 	
 	
