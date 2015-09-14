@@ -15,7 +15,7 @@ public class For_each_Main02 {
 		for (int i = 0; i < list.size(); i++) {
 			MemberDTO temp =list.get(i);
 			System.out.print(temp.getName() + "\t" + temp.getAge() + "\t");
-			System.out.println(temp.getAddr() + "\t" + temp.getTel());
+			System.out.println(temp.getAddress() + "\t" + temp.getTelephon());
 		}
 		
 		//swap : 서로 자리를 바꿈 → set() 메서드 
@@ -29,7 +29,7 @@ public class For_each_Main02 {
 		//ArrayList<>의 내용을 출력하시오 : 향상된 for 문(for - each)
 		for (MemberDTO dto : list) {
 			System.out.print(dto.getName() + "\t" + dto.getAge() + "\t");
-			System.out.println(dto.getAddr() + "\t" + dto.getTel());
+			System.out.println(dto.getAddress() + "\t" + dto.getTelephon());
 		}
 	
 	}//main()

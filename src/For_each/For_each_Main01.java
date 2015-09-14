@@ -20,21 +20,21 @@ public class For_each_Main01 {
 		for (int i = 0; i < list.size(); i++) {
 			MemberDTO temp =list.get(i);
 			System.out.print(temp.getName() + "\t" + temp.getAge() + "\t");
-			System.out.println(temp.getAddr() + "\t" + temp.getTel());
+			System.out.println(temp.getAddress() + "\t" + temp.getTelephon());
 		}
 		System.out.println();
 		
 		//ArrayList<>의 내용을 출력하시오 ▶ for each 문(향상된 for문 : 배열구조의 자룔를 출력할때 사용)
 		for (MemberDTO dto : list) {
 			System.out.print(dto.getName() + "\t" + dto.getAge() + "\t");
-			System.out.println(dto.getAddr() + "\t" + dto.getTel());
+			System.out.println(dto.getAddress() + "\t" + dto.getTelephon());
 		}
 		
 		//ArratList<>의 내용을 출력하시오 ▶ Iterator(열거, 나열형 클래스) : 사이즈 정보를 알 수 없을때 사용
 		Iterator<MemberDTO> it = list.iterator();
 		while(it.hasNext()){	//다음 공간에 데이터가 존재하는지 판단
 			System.out.print(it.next().getName() + "\t" + it.next().getAge() + "\t");
-			System.out.println(it.next().getAddr() + "\t" + it.next().getTel());
+			System.out.println(it.next().getAddress() + "\t" + it.next().getTelephon());
 		}
 	}
 
