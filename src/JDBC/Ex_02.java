@@ -36,7 +36,5 @@ public class Ex_02 {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
-
 }
