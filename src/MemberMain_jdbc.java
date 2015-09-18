@@ -61,6 +61,5 @@ public class MemberMain_jdbc {
 			}
 		}//while
 		sc.close();
-	}
-	
-}
+	}//main()
+}//class

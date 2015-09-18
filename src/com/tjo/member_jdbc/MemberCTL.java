@@ -141,7 +141,7 @@ public class MemberCTL {
 		
 		if (list != null || list.size() - 1<= list.size()) {
 			System.out.println("-------------------------------------------------------------");
-			System.out.println("조회하신 검색결과는 더이상 업습니다.");
+			System.out.println("조회하신 검색결과는 더이상 없습니다.");
 		}
 	}//selectName()
 
