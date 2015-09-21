@@ -146,7 +146,7 @@ public class BookCTL {
 		while(true){
 			System.out.print("구매할 책 수량를 입력하세요 : ");
 			int num = Integer.parseInt(sc.nextLine());
-			dao.orderBook(num);
+//			dao.orderBook(num);
 			try {
 				System.out.println("도서명");
 				System.out.println("단가");
